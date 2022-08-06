@@ -9,3 +9,10 @@ Above in the text diagram we have shown you that from the Repo we have branched 
 
 explaining the branching strategy to be used within each project:
 All projects are branched from 1 repository meaning that Project 1/Branch will not have an influence on other branches for example. Work that was done in project 1 will not affect project 2-5 and vice versa the only affect the branches will have is on the main branch when it is pushed or pulled. The branches are specifically set up in a way so that each project can be individually worked on.
+
+gitnore is a file that tells the GIT to ignore a  project , because they are certain parts  in the project that you dont want it to be publish to your repository it could be credential files that you dont want them to be access by others  its not secure.
+
+explain the  storage of credentials and sensitive information:
+
+ you can use the git store to store your passwords
+ you can use the git store from the data being leaked 
