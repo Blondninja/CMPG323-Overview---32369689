@@ -23,6 +23,43 @@ bring development issues and pull request
 create a kanban project
 
 
+purpose of the project:
+
+you will create a CRUD RESTful API that will connect to a database storing
+IoT device data. The API should contain at least one get, post, patch and delete method per
+resource – aligning to the project's requirements. The RESTful API architecture has several
+endpoints called over HTTP, invoking application code to update a database. 
+
+The project is being scafold (dotnet ef) and therefore the models were being updated , the model have three categories namely category.cs , device.cs and zone.cs .
+therefore one its being scafold the controllers is being added following up.
+
+the controllers consist of Device , category ,zone and each of the controllers can output an GET METHOD, PUT METHOD , DELETE METHOD, POST METHODS. so that it can be hosted on the azure and output and thr swagger results.
+
+we have used the gitignored so that the appsetting should not be accesed by the github, i have applied the authentification on the API and refrained the credentials from storing in the code 
+
+the Api  and database is hosted on the azure and its has been granted access .
+
+i have pushed the assignment on the github in case if i loose any data i can retrieve it from the github for backend purpose , and i have publish the project to the Azure and its publish successfully.
+
+i have added 5 endpoints and made sure they are under owner 
+
+
+REFERENCE LIST:
+•	Tutorial: Create a web API with ASP.NET Core | Microsoft Docs 
+•	Create a web API with ASP.NET Core controllers - Learn | Microsoft Docs 
+•	ASP.NET Core web API documentation with Swagger / OpenAPI | Microsoft Docs 
+•	Create microservices with .NET and ASP.NET Core - Learn | Microsoft Docs
+•	Entity Framework Core 3.1 - Getting Started
+•	Join two entities in .NET Core, using lambda and Entity Framework Core 
+•	Publish an ASP.NET Core web API to Azure API Management with Visual Studio | Microsoft Docs
+  
+
+![image](https://user-images.githubusercontent.com/110628936/189643938-d00a78e2-4d4f-4c24-b26f-e1896367ba65.png)
+
+![image](https://user-images.githubusercontent.com/110628936/189644320-c418c8cb-c04f-49b7-814a-c628f451a4a3.png)
+
+
+
 
 explain the  storage of credentials and sensitive information:
 
