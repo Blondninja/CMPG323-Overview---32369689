@@ -60,6 +60,48 @@ REFERENCE LIST:
 
 
 
+project 3
+
+
+This project is a web app that allows users to manage the IOT devices within their Organization, this app was built using
+the following :
+
+•	ASP .NET 3.1
+•	Azure (For Hosting and Database)
+•	Entity Framework
+•	Microsoft Identity Framework
+
+![connected office](https://user-images.githubusercontent.com/110628936/193011368-5861494c-cfea-46a0-bfe1-082eaac515e1.png)
+
+![loggings](https://user-images.githubusercontent.com/110628936/193011766-8c813d23-a5b1-424b-8fe2-461af7a130da.png)
+
+where you can register yourself with your email id and a strong password, once you have logged in , you can also log out easily.
+and if you forgot the password you can also retrieve it and also add as a new user as well
+
+![output](https://user-images.githubusercontent.com/110628936/193011901-212d4895-fe5a-4fea-aa1f-a70263999000.png)
+
+You will see 3 additional Buttons (Zone, Device, Categories)
+Zone : Gives an overview of all the locations where IOT devices are stored
+
+Device: Gives an overview of all the devices in the company and where they are located
+
+Categories: Devices are divided into general categories based on the functionality of the device, this page allows you to manage categories and add new ones if need be
+
+![zones](https://user-images.githubusercontent.com/110628936/193012245-da966deb-28d9-4e11-9147-14a4ac7e3321.png)
+![category](https://user-images.githubusercontent.com/110628936/193012529-31365b65-3b24-4736-a7a8-c6ac214cd53c.png)
+![devices](https://user-images.githubusercontent.com/110628936/193012555-cc85e896-2abf-4152-a922-0871d079263f.png)
+
+there are three buttons when each button is click it provides:
+
+add option "+" where you can add description 
+eye icon where you can view the data when was the description created along with the time
+pencil icon is for edit , if you want to change the data it will allow edition
+delete icon where it will delete data permanently and will no longer be found 
+
+![azure](https://user-images.githubusercontent.com/110628936/193012602-1a886058-183c-472e-ac77-7055359e3424.png)
+
+this indicates that that  hosting on azure has been successfully done , it has been successfully published.
+viewing according to the url provided in the screenshot
 
 explain the  storage of credentials and sensitive information:
 
