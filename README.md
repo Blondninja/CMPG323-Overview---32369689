@@ -22,6 +22,16 @@ project 1 is an agile and scrum where you have to develop an repository and conn
 bring development issues and pull request
 create a kanban project
 
+![staus graph](https://user-images.githubusercontent.com/110628936/202587021-858f4542-b046-4212-85bc-0862614b199c.png)
+![sprint graph](https://user-images.githubusercontent.com/110628936/202587088-98ad10d7-89c8-4cbe-9933-a66b577b434c.png)
+![project review](https://user-images.githubusercontent.com/110628936/202587128-eb9bb59a-203a-41f4-bd97-0dbbdfc4c6b7.png)
+![number of hours for each repo](https://user-images.githubusercontent.com/110628936/202587166-bd1c8122-7540-4de8-82f1-d7a9dca1f355.png)
+![label graph](https://user-images.githubusercontent.com/110628936/202587202-8ffc9145-c526-47da-9025-52863670bf68.png)
+![burndown graph](https://user-images.githubusercontent.com/110628936/202587240-0b87dd9c-6909-477e-bdd9-bd62ebb79b6e.png)
+
+
+
+project 2
 
 purpose of the project:
 
