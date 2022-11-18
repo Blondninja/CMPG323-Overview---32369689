@@ -23,10 +23,20 @@ bring development issues and pull request
 create a kanban project
 
 ![staus graph](https://user-images.githubusercontent.com/110628936/202587021-858f4542-b046-4212-85bc-0862614b199c.png)
+
+
 ![sprint graph](https://user-images.githubusercontent.com/110628936/202587088-98ad10d7-89c8-4cbe-9933-a66b577b434c.png)
+
+
 ![project review](https://user-images.githubusercontent.com/110628936/202587128-eb9bb59a-203a-41f4-bd97-0dbbdfc4c6b7.png)
+
+
 ![number of hours for each repo](https://user-images.githubusercontent.com/110628936/202587166-bd1c8122-7540-4de8-82f1-d7a9dca1f355.png)
+
+
 ![label graph](https://user-images.githubusercontent.com/110628936/202587202-8ffc9145-c526-47da-9025-52863670bf68.png)
+
+
 ![burndown graph](https://user-images.githubusercontent.com/110628936/202587240-0b87dd9c-6909-477e-bdd9-bd62ebb79b6e.png)
 
 
@@ -54,17 +64,8 @@ i have pushed the assignment on the github in case if i loose any data i can ret
 i have added 5 endpoints and made sure they are under owner 
 
 
-REFERENCE LIST:
-•	Tutorial: Create a web API with ASP.NET Core | Microsoft Docs 
-•	Create a web API with ASP.NET Core controllers - Learn | Microsoft Docs 
-•	ASP.NET Core web API documentation with Swagger / OpenAPI | Microsoft Docs 
-•	Create microservices with .NET and ASP.NET Core - Learn | Microsoft Docs
-•	Entity Framework Core 3.1 - Getting Started
-•	Join two entities in .NET Core, using lambda and Entity Framework Core 
-•	Publish an ASP.NET Core web API to Azure API Management with Visual Studio | Microsoft Docs
-  
-
 ![image](https://user-images.githubusercontent.com/110628936/189643938-d00a78e2-4d4f-4c24-b26f-e1896367ba65.png)
+
 
 ![image](https://user-images.githubusercontent.com/110628936/189644320-c418c8cb-c04f-49b7-814a-c628f451a4a3.png)
 
@@ -83,6 +84,7 @@ the following :
 
 ![connected office](https://user-images.githubusercontent.com/110628936/193011368-5861494c-cfea-46a0-bfe1-082eaac515e1.png)
 
+
 ![loggings](https://user-images.githubusercontent.com/110628936/193011766-8c813d23-a5b1-424b-8fe2-461af7a130da.png)
 
 where you can register yourself with your email id and a strong password, once you have logged in , you can also log out easily.
@@ -98,7 +100,11 @@ Device: Gives an overview of all the devices in the company and where they are l
 Categories: Devices are divided into general categories based on the functionality of the device, this page allows you to manage categories and add new ones if need be
 
 ![zones](https://user-images.githubusercontent.com/110628936/193012245-da966deb-28d9-4e11-9147-14a4ac7e3321.png)
+
+
 ![category](https://user-images.githubusercontent.com/110628936/193012529-31365b65-3b24-4736-a7a8-c6ac214cd53c.png)
+
+
 ![devices](https://user-images.githubusercontent.com/110628936/193012555-cc85e896-2abf-4152-a922-0871d079263f.png)
 
 there are three buttons when each button is click it provides:
@@ -200,6 +206,7 @@ Once the test is successfully You will return to UiPath Studio where you can run
 
 ![Screenshot 2022-10-27 144617](https://user-images.githubusercontent.com/110628936/198290920-fd95fd31-0b98-48a0-94a2-7487d51685db.png)
 
+
 project 5
 
 
@@ -232,6 +239,9 @@ a count of device is provided , the slicer plays the role in the graph and count
 a graph for status is provided
 the scroll bar for dates tells you on which date the devices were registerd , and the number of devices
 
+![high- level matrics](https://user-images.githubusercontent.com/110628936/202588624-6f1097e7-add5-48ae-b73b-6ad3217a167c.png)
+
+
 device monitoring
 
 the true and false in the slicer are the status either online or offline
@@ -241,11 +251,17 @@ the staus of online and offline is shownn inn the count of device
 the scroll bar for dates tells you on which date the devices were registerd , and the number of devices and which devices 
 the bar graph indicates thr status of how may months and days it stayed active
 
+![device monitoring](https://user-images.githubusercontent.com/110628936/202588669-c95c3a23-f4b3-4a70-8341-28d85d51d173.png)
+
+
 device registration
 
 a waterfall chart shows how the graph slope is either increasig and decreasing 
 timelie graph was iitially icreasinng then decreased and then constantly stayed the same constant, which means that the device were not many installed 
 a count device will tell you how many devices were installed when you click each checkbox in the slicer either with code or device name
+
+![device registration](https://user-images.githubusercontent.com/110628936/202588710-f78bb5dd-51f8-4612-bb4c-45373eb41cd0.png)
+
 
 
 
