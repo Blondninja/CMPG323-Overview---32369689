@@ -1,5 +1,11 @@
 # CMPG323-Overview---32369689
 
+This repo contains information of all projects  of witch have their own repositories. These projects all contribute to developing a Web app that records information on IoT devices. The Web app uses an API to store its data in a database hosted in Azure. A RPA is used to test the Web app's functionality and a Power BI report has been created to view summary information on the data collected by the Web app.
+
+project 1
+
+In this Project the  repository was created. This repository will be used to provide an overview of all the Projects and as a source reposiroty for the 'CMPG 323 Project Progress Tracking' Kanban project. 
+
 I have created 1 repository for this project in this Repo we have split it into 5 different branches for each specific individual project for eg. Project 2 will contain all the neccessary files for that project, we will then Push all the branches into the main branch where all the projects can be found.
 
 Below is a Text diagram explaining the project and repo context and how they intergrate.
@@ -11,10 +17,16 @@ explaining the branching strategy to be used within each project:
 
 All projects are branched from 1 repository meaning that Project 1/Branch will not have an influence on other branches for example. Work that was done in project 1 will not affect project 2-5 and vice versa the only affect the branches will have is on the main branch when it is pushed or pulled. The branches are specifically set up in a way so that each project can be individually worked on, unless if they specify that we have to create an new repository for each project therefore we follow the criteria.
 
+branching strategy:
+
+This project does not require the use of source control and therefore does not need a branching strategy.
+
 explain the use of a .gitignore file
 
 gitnore is a file that tells the GIT to ignore a  project , because they are certain parts  in the project that you dont want it to be publish to your repository it could be credential files that you dont want them to be access by others  its not secure.
 .gitignore tells git which files (or patterns) it should ignore. It's usually used to avoid committing transient files from your working directory that aren't useful to other collaborators, such as compilation products, temporary files IDEs create, etc.
+
+Because the API keys and secrets will be stored outside of GitHub no security key files or API keys will be added to te .gitignore files for any of the Projects. The only files that will be added to a .gitignore file will be any system-specific files that may be encountered in Project 3,4 and 5. Project 1 and 2 will not make use of a .gitignore file.
 
 student project structure:
 
@@ -42,6 +54,12 @@ create a kanban project
 
 
 project 2
+
+This Project will create a  repository to store and work on the main parts of Project 2. It will also make use of the  repository in order to keep the 'CMPG 323 Project Progress Tracking' Kanban project up to date.
+
+branching strategy:
+
+Because  these projects will have lots of smaller functions and methods and won't be implementing big features, a variation on the GitHub Flow branching strategy will be used. There will be no release branch, but there will be feature branches that stems directly from the main branch. Once the feature is complete the branch will be merged back into the main branch. There will also be a hotfix branch for small fixes that may be needed on the main branch.
 
 purpose of the project:
 
@@ -72,6 +90,12 @@ i have added 5 endpoints and made sure they are under owner
 
 
 project 3
+
+This Project will create the repository and will fork the existing GitHub repository. This project will also use repository classes that will contain data access operations. Project 3 will also use the  repository in order to keep the 'CMPG 323 Project Progress Tracking' Kanban project up to date.
+
+branching strategy:
+
+These projects will need a development branch and thus a version of the GitFlow branching strategy will be used. All features will be developed on a feature branch which stems from the development branch. Once the feature is complete the feature branch will be merged with the development branch. Once the development branch is ready to be realeased, the branch will be merged with the main branch.There will also be a hotfix branch for any small fixes that the main branch may need.
 
 
 This project is a web app that allows users to manage the IOT devices within their Organization, this app was built using
@@ -124,9 +148,15 @@ explain the  storage of credentials and sensitive information:
  you can use the git store to store your passwords
  you can use the git store from the data being leaked
  delete confidential data that you no longer need which can create sensitive issue 
- restrict confidential data in workplace so that it may not go into a wrong hand and result in loss
+ restrict confidential data in workplace so that it may not go into a wrong hand   and result in loss
  
  project 4
+ 
+ This Project will create a  repository. This Project will require the cloning of the 'CMPG323-Project3-33677727’ repository (as Project 4 will be working with the web application developed in Project 3). Project 4 will also make use of the  repository in order to keep the 'CMPG 323 Project Progress Tracking' Kanban project up to date.
+ 
+ branching strategy:
+ 
+ Because  these projects will have lots of smaller functions and methods and won't be implementing big features, a variation on the GitHub Flow branching strategy will be used. There will be no release branch, but there will be feature branches that stems directly from the main branch. Once the feature is complete the branch will be merged back into the main branch. There will also be a hotfix branch for small fixes that may be needed on the main branch.
  
  
  Overview
@@ -206,6 +236,12 @@ Once the test is successfully You will return to UiPath Studio where you can run
 
 
 project 5
+
+This Project will create the repository. Project 5 will require the cloning of the  repository. It will also make use of the  repository to keep the 'CMPG 323 Project Progress Tracking' Kanban project up to date. 
+
+branching strategy:
+
+These projects will need a development branch and thus a version of the GitFlow branching strategy will be used. All features will be developed on a feature branch which stems from the development branch. Once the feature is complete the feature branch will be merged with the development branch. Once the development branch is ready to be realeased, the branch will be merged with the main branch.There will also be a hotfix branch for any small fixes that the main branch may need.
 
 
 This project is completely done on a BI
